@@ -1,7 +1,3 @@
-$('.images > img:nth-child(1)').addClass('current')
-$('.images > img:nth-child(2)').addClass('enter')
-$('.images > img:nth-child(3)').addClass('enter')
-
 let n
 init()
 
@@ -36,14 +32,13 @@ function init () {
 }
 
 function makeCurrent ($node) {
-  $node.removeClass('enter leave').addClass('current')
+  return $node.removeClass('enter leave').addClass('current')
 }
 
 function makeLeave ($node) {
-  $node.removeClass('enter current').addClass('leave')
-  return $node
+  return $node.removeClass('enter current').addClass('leave')
 }
 
 function makeEnter ($node) {
-  $node.removeClass('leave current').addClass('enter')
+  return $node.removeClass('leave current').addClass('enter')
 }
