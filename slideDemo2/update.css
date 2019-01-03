@@ -24,6 +24,9 @@ body{
   display: flex;
   transition: all .3s;
 }
+.button {
+  margin-left: 6px;
+}
 button {
   border: .1rem solid #fe5454;
   width: 77px;
@@ -34,7 +37,7 @@ button {
   text-align: center;
   border: .1rem solid #DEDEDE;
   color: #B7B7B7;
-  margin-left: -1px;
+  margin-left: -5px;
   margin-top: 10px;
 }
 .active {
