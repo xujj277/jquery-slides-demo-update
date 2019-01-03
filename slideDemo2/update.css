@@ -1,0 +1,62 @@
+body,h1,h2,h3,p,quote,small,form,input,ul,li,ol,label{
+  /* Page reset */
+  margin:0px;
+  padding:0px;
+}
+
+body{
+  /* Setting default text color, background and a font stack */
+  color:#444444;
+  font-size:13px;
+  background: #f2f2f2;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+
+.wrapper {
+  width: 300px;
+  overflow: hidden;
+  background: #FFFFFF;
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,0.05);
+  border-radius: 6px;
+}
+.images {
+  display: flex;
+  transition: all .3s;
+}
+button {
+  border: .1rem solid #fe5454;
+  width: 77px;
+  height: 1.8rem;
+  margin: auto;
+  display: inline-block;
+  line-height: 1.8rem;
+  text-align: center;
+  border: .1rem solid #DEDEDE;
+  color: #B7B7B7;
+  margin-left: -1px;
+  margin-top: 10px;
+}
+.active {
+  background: #78BC28;
+  color: #fff;
+  border: .1rem solid #78BC28;
+}
+
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 30px;
+  width: 330px;
+  height: 600px;
+  background: #FFFFFF;
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,0.05);
+  border-radius: 6px;
+}
+.cover {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
